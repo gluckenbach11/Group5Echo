@@ -31,7 +31,10 @@ public class EchoServer {
                 System.out.println("Server: " + inputLine);
                 out.println(inputLine);
             }
-            
+            serverSocket.close();
+            clientSocket.close();
+            br.close();
+            out.close();
         }
         catch(IOException ex){
         ex.printStackTrace();
