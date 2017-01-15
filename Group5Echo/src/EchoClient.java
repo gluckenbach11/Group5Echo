@@ -39,6 +39,8 @@ public class EchoClient {
                     System.out.println("Server response: " + response);
                 }
                 clientSocket.close();
+                br.close();
+                out.close();
                 }
         }
         catch(IOException ex){
