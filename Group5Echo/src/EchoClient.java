@@ -7,10 +7,7 @@ import java.net.InetAddress;
 import java.net.Socket;
 import java.util.Scanner;
 
-/**
- *
- * @author gluck
- */
+
 public class EchoClient {
 
     public static void main(String[] args) {
